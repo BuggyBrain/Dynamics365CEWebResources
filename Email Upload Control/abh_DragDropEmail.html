@@ -1,0 +1,83 @@
+<html>   
+<body style="word-wrap: break-word;" onfocusout="parent.setEmailRange();">
+
+    <meta charset="utf-8">
+    <title></title>
+
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700" rel="stylesheet" type="text/css">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    body {
+       font-family: Segoe\000020UI,Arial,sans\00002Dserif;
+font-size: 12px;
+        width: auto;
+        height: auto;
+    }
+
+ .demo-droppable {
+        background: #fff;
+        color: #8b8b8b;
+        font-family: Segoe\000020UI,Arial,sans\00002Dserif;
+        font-size: 12px;
+        text-align: center;
+        height: 100%;
+        margin-top: -30px;
+        padding: 20px;
+    }
+
+        .demo-droppable.dragover {
+            background: #00CC71;
+        }
+
+        .demo-droppable.dragover {
+            background: #00CC71;
+        }
+
+    p.success{
+        color : #00CC71;
+    }
+
+    p.error{
+        color:#f00;
+    }
+.notificationMessage{
+background-color:#FFF19D;
+}
+
+.notificationMessage .output .message{
+padding:10px;
+}
+
+.abhCrmAppMessageBarTitle{    padding-left: 6px;
+    font-weight: bold;
+    color: #262626;
+    height: 32px;
+    vertical-align: middle;}
+.abhCrmAppMessageBarMessage {
+    font-weight: normal;
+    color: #444444;
+    padding-left: 14px;
+    padding-right: 10px;
+}
+</style>
+
+    <script src="ClientGlobalContext.js.aspx"></script>
+    <script src="abh_SDK.REST.js" type="text/javascript"></script>
+
+
+    <article class="post-full">
+        <div class="mui-container mui-panel post-content" style="margin-top:-20px;">
+            <div class="notificationMessage"><div class="output"></div></div>
+            <div class="post-html">
+
+                <div id="demodroppable" class="demo-droppable">
+                    <p>Drag files here or click to upload</p>
+                </div>
+
+            </div>
+        </div>
+    </article>
+
+    <script src="abh_DragDrop.js" type="text/javascript"></script>
+
+</body></html>
